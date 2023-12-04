@@ -113,5 +113,6 @@ Le fichier contenant les fcontexts
 ```/etc/selinux/targeted/contexts/files```
 
 file_contexts - default contexts and updated by semanage
+
 file_contexts.local - newly created and not found in file_contexts
 
