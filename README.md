@@ -105,11 +105,11 @@ httpd_enable_homedirs          (on   ,   on)  Allow httpd to enable homedirs
 ```
 
 Afficher les contexts locaux
-semanage fcontext -C -l
+`semanage fcontext -C -l`
 
 Le fichier contenant les fcontexts
 
-/etc/selinux/targeted/contexts/files
+`/etc/selinux/targeted/contexts/files`
 file_contexts - default contexts and updated by semanage
 file_contexts.local - newly created and not found in file_contexts
 
